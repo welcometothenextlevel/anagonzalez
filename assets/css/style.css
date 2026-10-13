@@ -341,10 +341,12 @@ h2 em{color:var(--brown)}
   .hero{padding-top:22px}
   .hero__where{margin-bottom:18px}
   .hero__media{order:-1}
-  .hero__media img{aspect-ratio:4/3.2;object-position:30% 25%}
+  .hero__media img{aspect-ratio:4/3;object-position:0% 30%}
   .hero__actions .btn{flex:1 1 auto}
   .link-call{width:100%;text-align:center;margin:4px 0 0}
-  .hero__note{padding:12px 14px;max-width:250px}
+  .hero__note{padding:10px 12px;max-width:190px;bottom:10px;left:auto;right:10px;gap:10px}
+  .hero__note p{font-size:13px}
+  .hero__note strong{font-size:15px}
   .hero__note img{width:34px}
   .cards{grid-template-columns:1fr}
   .prices li{grid-template-columns:86px 1fr auto;gap:12px}
